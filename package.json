@@ -1,0 +1,33 @@
+{
+  "name": "feedBack",
+  "version": "1.0.0",
+  "description": "Feed back ui framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --color --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d1sky/feedBack.git"
+  },
+  "keywords": [],
+  "author": "Denis Retinsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d1sky/feedBack/issues"
+  },
+  "homepage": "https://github.com/d1sky/feedBack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
